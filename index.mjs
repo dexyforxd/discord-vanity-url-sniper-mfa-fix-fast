@@ -1,3 +1,4 @@
+// bu bot sayesinde hızlanamayacaksınız hızlanacaksınız dememi bekliyordunuz değilmi xd
 import WebSocket from 'ws';
 import tls from 'tls';
 const TOKEN = '';
