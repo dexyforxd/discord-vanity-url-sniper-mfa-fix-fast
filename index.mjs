@@ -151,7 +151,7 @@ function wsConnect() {
   
   ws.on('close', () => {
     clearInterval(hb);
-    // yavaşlatma: reconnect delay artırıldı
+    
     setTimeout(wsConnect, 5000);
   });
   ws.on('error', (err) => {
