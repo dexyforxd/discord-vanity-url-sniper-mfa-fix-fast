@@ -165,7 +165,7 @@ function wsConnect() {
   mfaToken = await getMfa();
   if (!mfaToken) {
     console.log('mfa dogrulanamadi');
-    process.exit(1);
+  
   }
   console.log('mfa dogrulandi');
   await new Promise(resolve => setTimeout(resolve, 300));
